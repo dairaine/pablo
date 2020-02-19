@@ -1084,6 +1084,11 @@ section.lazy-placeholder:after {
     text-align: center !important;
   }
 }
+.cid-rJkKzJ3ROD {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background-color: #ffffff;
+}
 .cid-rJlfRFtrhd {
   padding-top: 90px;
   padding-bottom: 0px;
@@ -1124,116 +1129,6 @@ section.lazy-placeholder:after {
   .cid-rJlfRFtrhd .underline {
     text-align: center !important;
   }
-}
-.cid-rJkPDCqhLJ {
-  padding-top: 75px;
-  padding-bottom: 90px;
-  background-color: #ffbc00;
-}
-.cid-rJkPDCqhLJ .mbr-section-title {
-  letter-spacing: 0.1em;
-}
-.cid-rJkPDCqhLJ .mbr-section-title span {
-  color: #ffbc00;
-}
-.cid-rJkPDCqhLJ .mbr-section-subtitle {
-  color: #ffffff;
-  letter-spacing: 0.03em;
-}
-.cid-rJkPDCqhLJ .progressbar-title p {
-  margin-bottom: 8px;
-  letter-spacing: 0.03em;
-}
-.cid-rJkPDCqhLJ .progressbar-title {
-  color: white;
-}
-.cid-rJkPDCqhLJ .progress {
-  width: 100%;
-  height: 5px;
-  border-radius: 0;
-}
-.cid-rJkPDCqhLJ .progress_elements {
-  display: flex;
-  -webkit-align-items: center;
-  align-items: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-.cid-rJkPDCqhLJ .progress_elements > div {
-  -webkit-flex: 0 0 100%;
-  flex: 0 0 100%;
-  max-width: 100%;
-}
-.cid-rJkPDCqhLJ .progress-bar {
-  height: 5px;
-  background-color: #444444;
-}
-.cid-rJkPDCqhLJ .title-wrap {
-  display: flex;
-  -webkit-justify-content: space-between;
-  justify-content: space-between;
-}
-.cid-rJkPDCqhLJ .progressbar-number {
-  display: inline-block;
-}
-.cid-rJkPDCqhLJ .progress-primary {
-  background: rgba(206, 206, 206, 0.4);
-  border: none;
-  outline: none;
-}
-.cid-rJkPDCqhLJ .progress-primary::-webkit-progress-bar {
-  background: rgba(206, 206, 206, 0.4);
-}
-.cid-rJkPDCqhLJ .progress_value {
-  position: relative;
-  color: #444444;
-}
-.cid-rJkPDCqhLJ progress[value]::-webkit-progress-bar {
-  background: rgba(206, 206, 206, 0.4);
-}
-.cid-rJkPDCqhLJ progress::-webkit-progress-value {
-  background: #444444;
-}
-.cid-rJkPDCqhLJ progress[value]::-moz-progress-bar {
-  background: #444444;
-}
-.cid-rJkPDCqhLJ progress::-ms-fill {
-  background: #444444;
-}
-.cid-rJkPDCqhLJ .progress1 .progressbar-number:before {
-  content: '80';
-}
-.cid-rJkPDCqhLJ .progress2 .progressbar-number:before {
-  content: '75';
-}
-.cid-rJkPDCqhLJ .progress3 .progressbar-number:before {
-  content: '70';
-}
-.cid-rJkPDCqhLJ .progress4 .progressbar-number:before {
-  content: '91';
-}
-.cid-rJkPDCqhLJ .progress5 .progressbar-number:before {
-  content: '56';
-}
-.cid-rJkPDCqhLJ .progress-bar-1 {
-  width: 80%;
-}
-.cid-rJkPDCqhLJ .progress-bar-2 {
-  width: 75%;
-}
-.cid-rJkPDCqhLJ .progress-bar-3 {
-  width: 70%;
-}
-.cid-rJkPDCqhLJ .progress-bar-4 {
-  width: 91%;
-}
-.cid-rJkPDCqhLJ .progress-bar-5 {
-  width: 56%;
-}
-.cid-rJkPDCqhLJ .mbr-section-title SPAN {
-  color: #ffffff;
 }
 .cid-rJkM571q1N {
   padding-top: 60px;
@@ -1369,10 +1264,115 @@ section.lazy-placeholder:after {
   background: #232323;
   display: inline-block;
 }
-.cid-rJkKzJ3ROD {
-  padding-top: 45px;
-  padding-bottom: 45px;
-  background-color: #ffffff;
+.cid-rJkPDCqhLJ {
+  padding-top: 75px;
+  padding-bottom: 90px;
+  background-color: #333333;
+}
+.cid-rJkPDCqhLJ .mbr-section-title {
+  letter-spacing: 0.1em;
+}
+.cid-rJkPDCqhLJ .mbr-section-title span {
+  color: #ffbc00;
+}
+.cid-rJkPDCqhLJ .mbr-section-subtitle {
+  color: #ffffff;
+  letter-spacing: 0.03em;
+}
+.cid-rJkPDCqhLJ .progressbar-title p {
+  margin-bottom: 8px;
+  letter-spacing: 0.03em;
+}
+.cid-rJkPDCqhLJ .progressbar-title {
+  color: white;
+}
+.cid-rJkPDCqhLJ .progress {
+  width: 100%;
+  height: 5px;
+  border-radius: 0;
+}
+.cid-rJkPDCqhLJ .progress_elements {
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.cid-rJkPDCqhLJ .progress_elements > div {
+  -webkit-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.cid-rJkPDCqhLJ .progress-bar {
+  height: 5px;
+  background-color: #ffbc00;
+}
+.cid-rJkPDCqhLJ .title-wrap {
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.cid-rJkPDCqhLJ .progressbar-number {
+  display: inline-block;
+}
+.cid-rJkPDCqhLJ .progress-primary {
+  background: rgba(206, 206, 206, 0.4);
+  border: none;
+  outline: none;
+}
+.cid-rJkPDCqhLJ .progress-primary::-webkit-progress-bar {
+  background: rgba(206, 206, 206, 0.4);
+}
+.cid-rJkPDCqhLJ .progress_value {
+  position: relative;
+  color: #ffbc00;
+}
+.cid-rJkPDCqhLJ progress[value]::-webkit-progress-bar {
+  background: rgba(206, 206, 206, 0.4);
+}
+.cid-rJkPDCqhLJ progress::-webkit-progress-value {
+  background: #ffbc00;
+}
+.cid-rJkPDCqhLJ progress[value]::-moz-progress-bar {
+  background: #ffbc00;
+}
+.cid-rJkPDCqhLJ progress::-ms-fill {
+  background: #ffbc00;
+}
+.cid-rJkPDCqhLJ .progress1 .progressbar-number:before {
+  content: '80';
+}
+.cid-rJkPDCqhLJ .progress2 .progressbar-number:before {
+  content: '75';
+}
+.cid-rJkPDCqhLJ .progress3 .progressbar-number:before {
+  content: '70';
+}
+.cid-rJkPDCqhLJ .progress4 .progressbar-number:before {
+  content: '91';
+}
+.cid-rJkPDCqhLJ .progress5 .progressbar-number:before {
+  content: '56';
+}
+.cid-rJkPDCqhLJ .progress-bar-1 {
+  width: 80%;
+}
+.cid-rJkPDCqhLJ .progress-bar-2 {
+  width: 75%;
+}
+.cid-rJkPDCqhLJ .progress-bar-3 {
+  width: 70%;
+}
+.cid-rJkPDCqhLJ .progress-bar-4 {
+  width: 91%;
+}
+.cid-rJkPDCqhLJ .progress-bar-5 {
+  width: 56%;
+}
+.cid-rJkPDCqhLJ .mbr-section-title SPAN {
+  color: #ffffff;
 }
 .cid-rJkPPEqVbE {
   padding-top: 45px;
