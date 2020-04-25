@@ -1264,18 +1264,6 @@ section.lazy-placeholder:after {
   background: #232323;
   display: inline-block;
 }
-.cid-rTT91zTxkE {
-  background: #ffffff;
-}
-.cid-rTT91zTxkE .video-block {
-  margin: auto;
-  width: 100% !important;
-}
-@media (max-width: 768px) {
-  .cid-rTT91zTxkE .video-block {
-    width: 100% !important;
-  }
-}
 .cid-rJkPDCqhLJ {
   padding-top: 75px;
   padding-bottom: 90px;
