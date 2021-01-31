@@ -918,6 +918,19 @@
             "gallery__filtersBtnStyle": "btn-primary-outline",
             "gallery": [
               {
+                "tags": "Dessin traditionnel",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-3676-2000x2589.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-3676-2000x2589-800x1036.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Livaï Ackerman<br>",
+                "active": true
+              },
+              {
                 "tags": "Dessin numérique",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
@@ -979,7 +992,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Luffy<br>",
+                "caption": "Monkey D. Luffy<br>",
                 "active": false
               },
               {
@@ -1929,7 +1942,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Pelle",
-                "active": true
+                "active": false
               },
               {
                 "tags": "3D",
