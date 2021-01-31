@@ -68,7 +68,9 @@
       "themeColor": "#ffbc00"
     },
     "cookiesAlert": false,
-    "publishChangesOnly": true
+    "publishChangesOnly": true,
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-6X0XYRCQQF\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-6X0XYRCQQF');\n</script>",
+    "mbrsiteDomain": "jo5me2dd5f"
   },
   "pages": {
     "index.html": {
