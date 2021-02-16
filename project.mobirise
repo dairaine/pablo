@@ -920,6 +920,32 @@
             "gallery__filtersBtnStyle": "btn-primary-outline",
             "gallery": [
               {
+                "tags": "Dessin traditionnel",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/8a6c17fe-f6f9-4c43-a996-04a79a90cb67-828x1472.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/8a6c17fe-f6f9-4c43-a996-04a79a90cb67-828x1472-800x1422.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Eren Jäger<br>",
+                "active": true
+              },
+              {
+                "tags": "Dessin traditionnel",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-3892-2000x1168.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-3892-2000x1168-800x467.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Gojo<br>",
+                "active": false
+              },
+              {
                 "tags": "Portrait",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
@@ -930,7 +956,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Emma<br>",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Dessin traditionnel",
