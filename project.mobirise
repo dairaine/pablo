@@ -920,6 +920,19 @@
             "gallery__filtersBtnStyle": "btn-primary-outline",
             "gallery": [
               {
+                "tags": "3D",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/monstre-divin-rendu-2-2000x1191.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/monstre-divin-rendu-2-2000x1191-800x476.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Texturing<br>",
+                "active": false
+              },
+              {
                 "tags": "Dessin traditionnel",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
