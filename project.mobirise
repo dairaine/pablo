@@ -920,6 +920,32 @@
             "gallery__filtersBtnStyle": "btn-primary-outline",
             "gallery": [
               {
+                "tags": "Dessin numérique",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/capture4-897x1294.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/capture4-897x1294-800x1154.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Sukuna<br>",
+                "active": true
+              },
+              {
+                "tags": "3D",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/render-spiderbot-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/render-spiderbot-2000x2000-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Texturing<br>",
+                "active": false
+              },
+              {
                 "tags": "3D",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
@@ -1060,7 +1086,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Texturing<br>",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Dessin numérique",
