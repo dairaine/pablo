@@ -924,13 +924,52 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/joker-2000x2251.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/joker-2000x2251-800x900.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Oni<br><br>",
+                "active": false
+              },
+              {
+                "tags": "Dessin traditionnel",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/argile-man-1417x1920.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/argile-man-1417x1920-800x1084.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Strong man",
+                "active": true
+              },
+              {
+                "tags": "Dessin numérique",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/capture4-897x1294.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/capture4-897x1294-800x1154.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Sukuna<br>",
-                "active": true
+                "active": false
+              },
+              {
+                "tags": "Dessin numérique",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-5140-2000x2868.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-5140-2000x2868-800x1147.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Nina",
+                "active": false
               },
               {
                 "tags": "3D",
@@ -998,6 +1037,19 @@
                 "active": false
               },
               {
+                "tags": "Dessin numérique",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/charadesign-final-2000x1423.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/charadesign-final-2000x1423-800x569.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Charadesign&nbsp; final",
+                "active": false
+              },
+              {
                 "tags": "Portrait",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
@@ -1021,19 +1073,6 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Livaï Ackerman<br>",
-                "active": false
-              },
-              {
-                "tags": "Dessin numérique",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/charadesign-final-2000x1423.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/charadesign-final-2000x1423-800x569.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Charadesign&nbsp; final",
                 "active": false
               },
               {
