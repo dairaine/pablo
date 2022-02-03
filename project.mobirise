@@ -47,8 +47,8 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 12,
-    "versionPublish": "5.2.6",
+    "uniqCompNum": 13,
+    "versionPublish": "5.6.0",
     "screenshot": "screenshot.png",
     "cssOptimize": true,
     "lazyLoad": true,
@@ -495,7 +495,7 @@
           },
           "_name": "content2",
           "_sourceTheme": "portfoliom4",
-          "_customHTML": "<section class=\"mbr-section content2\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-8 col-sm-12 text-section\">\n                <h2 class=\"mbr-fonts-style mbr-title align-left pb-3\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title\" mbr-theme-style=\"display-2\">FOCUS<br></h2>\n                <p class=\"mbr-fonts-style mbr-text align-left\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Je suis actuellement étudiant dans l'école MJM Toulouse, en première année dans la filière animation 3d. Aussi loin que je me souvienne, je suis passionné de graphismes, de musique et de cinéma. Dans la perspective de contribuer à ces arts, j'ai développé des compétences en autodidacte avant de rejoindre un&nbsp;cursus artistique. J'ai ainsi pu progresser en dessin, au piano, à la guitare. Je suis encouragé et entouré par ma famille et mes amis. J'apprécie particulièrement collaborer et travailler en groupe.</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content2\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-8 col-sm-12 text-section\">\n                <h2 class=\"mbr-fonts-style mbr-title align-left pb-3\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title\" mbr-theme-style=\"display-2\">FOCUS<br></h2>\n                <p class=\"mbr-fonts-style mbr-text align-left\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Je suis actuellement étudiant dans l'école MJM Toulouse, en deuxième année dans la filière animation 3d. Aussi loin que je me souvienne, je suis passionné de graphismes, de musique et de cinéma. Dans la perspective de contribuer à ces arts, j'ai développé des compétences en autodidacte avant de rejoindre un&nbsp;cursus artistique. J'ai ainsi pu progresser en dessin, au piano, à la guitare. Je suis encouragé et entouré par ma famille et mes amis. J'apprécie particulièrement collaborer et travailler en groupe.</p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sn1XLSqJ7y",
           "_anchor": "content2-4",
           "_protectedParams": [],
@@ -686,7 +686,7 @@
           },
           "_name": "extHeader25",
           "_sourceTheme": "portfoliom4",
-          "_customHTML": "<section class=\"extFeatures\" group=\"Additional Blocks\" plugins=\"ViewportChecker\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show List\" name=\"showList\">\n        <input type=\"checkbox\" title=\"Show Counter\" name=\"showCounter\" condition=\"showList\">\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#ffbc00\" condition=\"showCounter&&showList\">\n        <input type=\"checkbox\" title=\"Media On Right/Left\" name=\"mediaLeft\" checked>\n        <input type=\"checkbox\" title=\"Show Social\" name=\"showIcons\" checked>\n        <select title=\"Social Count\" name=\"iconsCount\" condition=\"showIcons\">\n           <option value=\"1\">1</option>\n           <option value=\"2\" selected>2</option>\n           <option value=\"3\">3</option>\n           <option value=\"4\">4</option>\n           <option value=\"5\">5</option>\n        </select>\n        <input type=\"color\" title=\"Circle Hover\" name=\"circleHover\" value=\"#ffbc00\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Circle Color\" name=\"circleColor\" value=\"#444444\" condition=\"showIcons\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#444444\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container-fluid\">\n        <div class=\"row align-items-center content-row\">\n          <div class=\"col-lg-6 wrap-block\">\n              <h1 class=\"mbr-section-title mbr-fonts-style mbr-light\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\" mbr-theme-style=\"display-1\">Qui suis-je ?&nbsp;</h1>\n              <h2 class=\"mbr-section-subtitle mbr-fonts-style mbr-light\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-5\"><i>Un Toulousain marqué par le bout du monde...</i></h2>\n              <h3 class=\"mbr-text mbr-fonts-style mbr-light\" data-app-selector=\".mbr-text\" mbr-if=\"showText\" mbr-theme-style=\"display-4\">Je suis né à Toulouse le 1er Avril 2002. J'ai vécu au centre de Toulouse depuis ma naissance avec une parenthèse qui a marqué mon enfance : un séjour d'une année à Sydney en Australie lorsque que j'avais 3 ans. J'en ai encore quelques souvenirs - courir après les kangourous, faire le fou avec mon copain Jordan - et je comprend bien l'anglais. <br><br>J'ai grandi avec Marvel, Disney, le Studio Ghibli, et la culture manga qui sont sources de profondes inspirations pour moi. Le sport et la musique m'ont aussi accompagné dès le collège, puis le lycée. J'ai eu mon Bac S spécialité sciences et vie de la terre. <br><br><div><span style=\"font-size: 1.2rem;\">Je suis actuellement étudiant dans l'école MJM Toulouse, en première année dans la filière animation 3d. Aussi loin que je me souvienne, je suis passionné de graphismes, de musique et de cinéma. Dans la perspective de contribuer à ces arts, j'ai premièrement développé quelques compétences en autodidacte avant de rejoindre un cursus artistique. J'ai ainsi pu m'initier au dessin, mais aussi au piano et à la guitare. Je suis encouragé et entouré par ma famille et mes amis, j'ai développé une certaine sociabilité qui m'amène à particulièrement apprécier travailler en groupe.</span></div><br><div><span style=\"font-size: 1.2rem;\">Après cette année à Toulouse, j'aimerai travailler en alternance sur Paris ou Toulouse pour ainsi acquérir une expérience professionnelle.</span></div><div><br></div></h3>\n            <div class=\"mbr-list counter-container mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-list,.social-media\" data-multiline mbr-article mbr-if=\"showList\">\n                <ul>\n                    <li>Photoshop, Sketch, InDesign</li>\n                    <li>Illustrations</li>\n                    <li>Prototyping &amp; Visual Design</li>\n                    <li>Research &amp; Product Management</li>\n                    <li>Branding</li>\n                </ul>\n            </div>\n            <div class=\"social-media col-md-12 col-sm-12\" mbr-if=\"showIcons\">\n                <ul class=\"social-list\">\n                    <li mbr-if=\"iconsCount > 0\">\n                      <a class=\"icon-transition\" href=\"https://www.instagram.com/pablo_drne/?hl=fr\" target=\"_blank\">\n                        <span mbr-icon class=\"mbr-iconfont socicon-instagram socicon\"></span>\n                      </a>\n                    </li>\n                    <li mbr-if=\"iconsCount > 1\">\n                      <a class=\"icon-transition\" href=\"#\">\n                        <span mbr-icon class=\"mbr-iconfont socicon-linkedin socicon\" style></span>\n                      </a>\n                    </li>\n                    <li mbr-if=\"iconsCount > 2\">\n                      <a class=\"icon-transition\" href=\"#\">\n                        <span mbr-icon class=\"mbr-iconfont socicon-linkedin socicon\">\n                        </span>\n                      </a>\n                    </li>\n                    <li mbr-if=\"iconsCount > 3\">\n                      <a class=\"icon-transition\" href=\"#\">\n                        <span mbr-icon class=\"mbr-iconfont socicon-youtube socicon\">\n                        </span>\n                      </a>\n                    </li>\n                    <li mbr-if=\"iconsCount > 4\">\n                      <a class=\"icon-transition\" href=\"#\">\n                        <span mbr-icon class=\"mbr-iconfont socicon-rss socicon\" style></span>\n                      </a>\n                    </li>\n                 </ul>\n            </div>\n          </div>\n          <div class=\"col-lg-6 photo-split\">\n              <img src=\"@PROJECT_PATH@/assets/images/img-45144039-2545x2566.jpeg\" alt>\n          </div>\n      </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"extFeatures\" group=\"Additional Blocks\" plugins=\"ViewportChecker\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show List\" name=\"showList\">\n        <input type=\"checkbox\" title=\"Show Counter\" name=\"showCounter\" condition=\"showList\">\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#ffbc00\" condition=\"showCounter&&showList\">\n        <input type=\"checkbox\" title=\"Media On Right/Left\" name=\"mediaLeft\" checked>\n        <input type=\"checkbox\" title=\"Show Social\" name=\"showIcons\" checked>\n        <select title=\"Social Count\" name=\"iconsCount\" condition=\"showIcons\">\n           <option value=\"1\">1</option>\n           <option value=\"2\" selected>2</option>\n           <option value=\"3\">3</option>\n           <option value=\"4\">4</option>\n           <option value=\"5\">5</option>\n        </select>\n        <input type=\"color\" title=\"Circle Hover\" name=\"circleHover\" value=\"#ffbc00\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Circle Color\" name=\"circleColor\" value=\"#444444\" condition=\"showIcons\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#444444\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container-fluid\">\n        <div class=\"row align-items-center content-row\">\n          <div class=\"col-lg-6 wrap-block\">\n              <h1 class=\"mbr-section-title mbr-fonts-style mbr-light\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\" mbr-theme-style=\"display-1\">Qui suis-je ?&nbsp;</h1>\n              <h2 class=\"mbr-section-subtitle mbr-fonts-style mbr-light\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-5\"><i>Un Toulousain marqué par le bout du monde...</i></h2>\n              <h3 class=\"mbr-text mbr-fonts-style mbr-light\" data-app-selector=\".mbr-text\" mbr-if=\"showText\" mbr-theme-style=\"display-4\">Je suis né à Toulouse le 1er Avril 2002. J'ai vécu au centre de Toulouse depuis ma naissance avec une parenthèse qui a marqué mon enfance : un séjour d'une année à Sydney en Australie lorsque que j'avais 3 ans. J'en ai encore quelques souvenirs - courir après les kangourous, faire le fou avec mon copain Jordan - et je comprend bien l'anglais. <br><br>J'ai grandi avec Marvel, Disney, le Studio Ghibli, et la culture manga qui sont sources de profondes inspirations pour moi. Le sport et la musique m'ont aussi accompagné dès le collège, puis le lycée. J'ai eu mon Bac S spécialité sciences et vie de la terre. <br><br><div><span style=\"font-size: 1.2rem;\">Je suis actuellement étudiant dans l'école MJM Toulouse, en première année dans la filière animation 3d. Aussi loin que je me souvienne, je suis passionné de graphismes, de musique et de cinéma. Dans la perspective de contribuer à ces arts, j'ai premièrement développé quelques compétences en autodidacte avant de rejoindre un cursus artistique. J'ai ainsi pu m'initier au dessin, mais aussi au piano et à la guitare. Je suis encouragé et entouré par ma famille et mes amis, j'ai développé une certaine sociabilité qui m'amène à particulièrement apprécier travailler en groupe.</span></div><br><div><span style=\"font-size: 1.2rem;\">Après cette année à Toulouse, j'aimerai travailler en alternance sur Paris ou Toulouse pour ainsi acquérir une expérience professionnelle.</span></div><div><br></div></h3>\n            <div class=\"mbr-list counter-container mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-list,.social-media\" data-multiline mbr-article mbr-if=\"showList\">\n                <ul>\n                    <li>Photoshop, Sketch, InDesign</li>\n                    <li>Illustrations</li>\n                    <li>Prototyping &amp; Visual Design</li>\n                    <li>Research &amp; Product Management</li>\n                    <li>Branding</li>\n                </ul>\n            </div>\n            <div class=\"social-media col-md-12 col-sm-12\" mbr-if=\"showIcons\">\n                <ul class=\"social-list\">\n                    <li mbr-if=\"iconsCount > 0\">\n                      <a class=\"icon-transition\" href=\"https://www.instagram.com/pablo_drne/?hl=fr\" target=\"_blank\">\n                        <span mbr-icon class=\"mbr-iconfont socicon-instagram socicon\"></span>\n                      </a>\n                    </li>\n                    <li mbr-if=\"iconsCount > 1\">\n                      <a class=\"icon-transition\" href=\"#\">\n                        <span mbr-icon class=\"mbr-iconfont socicon-linkedin socicon\" style></span>\n                      </a>\n                    </li>\n                    <li mbr-if=\"iconsCount > 2\">\n                      <a class=\"icon-transition\" href=\"#\">\n                        <span mbr-icon class=\"mbr-iconfont socicon-linkedin socicon\">\n                        </span>\n                      </a>\n                    </li>\n                    <li mbr-if=\"iconsCount > 3\">\n                      <a class=\"icon-transition\" href=\"#\">\n                        <span mbr-icon class=\"mbr-iconfont socicon-youtube socicon\">\n                        </span>\n                      </a>\n                    </li>\n                    <li mbr-if=\"iconsCount > 4\">\n                      <a class=\"icon-transition\" href=\"#\">\n                        <span mbr-icon class=\"mbr-iconfont socicon-rss socicon\" style></span>\n                      </a>\n                    </li>\n                 </ul>\n            </div>\n          </div>\n          <div class=\"col-lg-6 photo-split\">\n              <img src=\"@PROJECT_PATH@/assets/images/img-1237-1665x1665.jpg\" alt>\n          </div>\n      </div>\n    </div>\n</section>",
           "_cid": "snpN5aMKYl",
           "_anchor": "extHeader25-6",
           "_protectedParams": [],
@@ -924,6 +924,474 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/rendu-final-1-2000x838.png",
+                "thumb": "@PROJECT_PATH@/assets/images/rendu-final-1-2000x838-800x335.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Farwest : Render 2",
+                "active": false
+              },
+              {
+                "tags": "Dessin numérique",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/itration-all2-2000x838.png",
+                "thumb": "@PROJECT_PATH@/assets/images/itration-all2-2000x838-800x335.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Farwest : Itérations 2",
+                "active": true
+              },
+              {
+                "tags": "Dessin numérique",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/vignettes4-2000x838.png",
+                "thumb": "@PROJECT_PATH@/assets/images/vignettes4-2000x838-800x335.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Farwest : color 2",
+                "active": false
+              },
+              {
+                "tags": "Dessin numérique",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/rendu-final-2-2000x838.png",
+                "thumb": "@PROJECT_PATH@/assets/images/rendu-final-2-2000x838-800x335.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Farwest : 1",
+                "active": false
+              },
+              {
+                "tags": "Dessin numérique",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/itration-all-2000x838.png",
+                "thumb": "@PROJECT_PATH@/assets/images/itration-all-2000x838-800x335.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Farwest : Itération 1",
+                "active": false
+              },
+              {
+                "tags": "Dessin numérique",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/vignettes5-2000x838.png",
+                "thumb": "@PROJECT_PATH@/assets/images/vignettes5-2000x838-800x335.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Farwest : color 1",
+                "active": false
+              },
+              {
+                "tags": "Dessin numérique",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/vignettes3-2000x838.png",
+                "thumb": "@PROJECT_PATH@/assets/images/vignettes3-2000x838-800x335.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Farwest : Vignettes 3",
+                "active": false
+              },
+              {
+                "tags": "Dessin numérique",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/vignettes2-2000x838.png",
+                "thumb": "@PROJECT_PATH@/assets/images/vignettes2-2000x838-800x335.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Farwest : Vignettes 2",
+                "active": false
+              },
+              {
+                "tags": "Dessin numérique",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/vignettes1-2000x838.png",
+                "thumb": "@PROJECT_PATH@/assets/images/vignettes1-2000x838-800x335.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Farwest : Vignettes 1",
+                "active": false
+              },
+              {
+                "tags": "3D",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/back2-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/back2-2000x2000-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Shark : Back",
+                "active": false
+              },
+              {
+                "tags": "3D",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/front-1-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/front-1-2000x2000-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Shark : Front",
+                "active": false
+              },
+              {
+                "tags": "3D",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/right-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/right-2000x2000-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Shark : Right",
+                "active": false
+              },
+              {
+                "tags": "3D",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/mod-td02-dairaine-pablo-1.2-2-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mod-td02-dairaine-pablo-1.2-2-2000x2000-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Bestiole : Render 3",
+                "active": false
+              },
+              {
+                "tags": "3D",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/mod-td02-dairaine-pablo-1.2-1-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mod-td02-dairaine-pablo-1.2-1-2000x2000-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Bestiole : Render 2",
+                "active": false
+              },
+              {
+                "tags": "3D",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/mod-td02-dairaine-pablo-rendu-nuit-2000x2000.png",
+                "thumb": "@PROJECT_PATH@/assets/images/mod-td02-dairaine-pablo-rendu-nuit-2000x2000-800x800.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Bestiole : Render 1",
+                "active": false
+              },
+              {
+                "tags": "3D",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/mod-td02-dairaine-pablo-1-2000x939.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mod-td02-dairaine-pablo-1-2000x939-800x376.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Bestiole : Maillage 4",
+                "active": false
+              },
+              {
+                "tags": "3D",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/mod-td02-dairaine-pablo-2-2000x934.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mod-td02-dairaine-pablo-2-2000x934-800x374.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Bestiole : Maillage 3",
+                "active": false
+              },
+              {
+                "tags": "3D",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/mod-td02-dairaine-pablo-3-2000x937.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mod-td02-dairaine-pablo-3-2000x937-800x375.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Bestiole : Maillage 2",
+                "active": false
+              },
+              {
+                "tags": "3D",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/mod-td02-dairaine-pablo-1349x1079.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mod-td02-dairaine-pablo-1349x1079-800x640.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Bestiole : Maillage 1",
+                "active": false
+              },
+              {
+                "tags": "3D",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/rendu1-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/rendu1-2000x2000-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Dino : Render 3",
+                "active": false
+              },
+              {
+                "tags": "3D",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/rendu2-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/rendu2-2000x2000-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Dino : Render 2",
+                "active": false
+              },
+              {
+                "tags": "3D",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/rendu3-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/rendu3-2000x2000-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Dino : Render 1",
+                "active": false
+              },
+              {
+                "tags": "Dessin numérique",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/bob-le-monstre-2000x1414.png",
+                "thumb": "@PROJECT_PATH@/assets/images/bob-le-monstre-2000x1414-800x566.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "E.T",
+                "active": false
+              },
+              {
+                "tags": "3D",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/maillagemonstre-1889x1149.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/maillagemonstre-1889x1149-800x487.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Dino : Maillage",
+                "active": false
+              },
+              {
+                "tags": "3D",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/rendu3.2-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/rendu3.2-2000x2000-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Grenade : Render 2",
+                "active": false
+              },
+              {
+                "tags": "3D",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/rendu1.2-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/rendu1.2-2000x2000-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Grenade : Render 1",
+                "active": false
+              },
+              {
+                "tags": "3D",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/maillage-2000x1089.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/maillage-2000x1089-800x436.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Grenade : Maillage",
+                "active": false
+              },
+              {
+                "tags": "3D",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/front-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/front-2000x2000-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Knife : Render 2",
+                "active": false
+              },
+              {
+                "tags": "3D",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/back-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/back-2000x2000-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Knife : Render 1",
+                "active": false
+              },
+              {
+                "tags": "Dessin numérique",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/la-peur-2000x1414.png",
+                "thumb": "@PROJECT_PATH@/assets/images/la-peur-2000x1414-800x566.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Peur",
+                "active": false
+              },
+              {
+                "tags": "Dessin numérique",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/trange-2000x1414.png",
+                "thumb": "@PROJECT_PATH@/assets/images/trange-2000x1414-800x566.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Mépris",
+                "active": false
+              },
+              {
+                "tags": "Dessin numérique",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/30s-2000x1414.png",
+                "thumb": "@PROJECT_PATH@/assets/images/30s-2000x1414-800x566.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "30's Boy",
+                "active": false
+              },
+              {
+                "tags": "Dessin numérique",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/sunflower-2000x1414.png",
+                "thumb": "@PROJECT_PATH@/assets/images/sunflower-2000x1414-800x566.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Sunflower",
+                "active": false
+              },
+              {
+                "tags": "Dessin numérique",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/rendu-final-illustration-2000x1414.png",
+                "thumb": "@PROJECT_PATH@/assets/images/rendu-final-illustration-2000x1414-800x566.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Charadesign 1 : Render",
+                "active": false
+              },
+              {
+                "tags": "Dessin numérique",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/recherche-couleur-2000x1414.png",
+                "thumb": "@PROJECT_PATH@/assets/images/recherche-couleur-2000x1414-800x566.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Charadesign 1 : Couleur",
+                "active": false
+              },
+              {
+                "tags": "Dessin numérique",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/recherche-corpulence-2000x1414.png",
+                "thumb": "@PROJECT_PATH@/assets/images/recherche-corpulence-2000x1414-800x566.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Charadesign 1 : Corpulence",
+                "active": false
+              },
+              {
+                "tags": "Dessin numérique",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/joker-2000x2251.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/joker-2000x2251-800x900.jpg",
                 "alt": "",
@@ -933,7 +1401,7 @@
                 "active": false
               },
               {
-                "tags": "Dessin traditionnel",
+                "tags": "Dessin numérique",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -943,7 +1411,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Strong man",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Dessin numérique",
@@ -959,7 +1427,7 @@
                 "active": false
               },
               {
-                "tags": "Dessin numérique",
+                "tags": "Dessin traditionnel",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -994,7 +1462,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Texturing<br>",
+                "caption": "Dieu de la forêt<br>",
                 "active": false
               },
               {
@@ -2016,73 +2484,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/3d1-dairaine-pablo-wheel-2-1676x1048.png",
-                "thumb": "@PROJECT_PATH@/assets/images/3d1-dairaine-pablo-wheel-2-1676x1048-800x500.png",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Roue",
-                "active": false
-              },
-              {
-                "tags": "3D",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/crne-dairaine-pablo-2000x1125.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/crne-dairaine-pablo-2000x1125-800x450.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Crâne",
-                "active": false
-              },
-              {
-                "tags": "3D",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/sp01-dairaine-pablo-2000x981.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/sp01-dairaine-pablo-2000x981-800x392.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Test Color",
-                "active": false
-              },
-              {
-                "tags": "3D",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/sp02-arachne-dairaine-pablo-2000x1093.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/sp02-arachne-dairaine-pablo-2000x1093-800x437.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Test Color<br><br>",
-                "active": false
-              },
-              {
-                "tags": "3D",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/sp02-modelisation-dairaine-pablo-charette-2000x1091.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/sp02-modelisation-dairaine-pablo-charette-2000x1091-800x436.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Charette",
-                "active": false
-              },
-              {
-                "tags": "3D",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/sp02-charette-dairaine-pablo-1809x1057.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/sp02-charette-dairaine-pablo-1809x1057-800x467.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -2100,6 +2503,19 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Tractopelle",
+                "active": false
+              },
+              {
+                "tags": "3D",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/sp02-charette-dairaine-pablo-1809x1057.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sp02-charette-dairaine-pablo-1809x1057-800x467.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Charette",
                 "active": false
               },
               {
@@ -2153,89 +2569,9 @@
                 "customStyle1": "display-7",
                 "caption": "Pont",
                 "active": false
-              },
-              {
-                "tags": "3D",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/immeuble-2000x1043.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/immeuble-2000x1043-800x417.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Immeuble",
-                "active": false
               }
             ]
           }
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "background": "@bgColor",
-            "& when (@fullWidth = false)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "& when (@gradientBg)": {
-              "background": "linear-gradient(45deg, @bgColor, @color2)"
-            },
-            ".video-block": {
-              "margin": "auto",
-              "& when (@fullWidth)": {
-                "width": "100% !important"
-              }
-            },
-            "@media (max-width: 768px)": {
-              ".video-block": {
-                "width": "100% !important"
-              }
-            }
-          },
-          "_name": "video1",
-          "_sourceTheme": "portfoliom4",
-          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"1\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"1\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"48\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#444444\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#ffbc00\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://www.youtube.com/watch?v=R3nFkDXqCXo&feature=youtu.be&loop=1&autoplay=1\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
-          "_cid": "snpZGrRZLL",
-          "_anchor": "video1-7",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "background": "@bgColor",
-            "& when (@fullWidth = false)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "& when (@gradientBg)": {
-              "background": "linear-gradient(45deg, @bgColor, @color2)"
-            },
-            ".video-block": {
-              "margin": "auto",
-              "& when (@fullWidth)": {
-                "width": "100% !important"
-              }
-            },
-            "@media (max-width: 768px)": {
-              ".video-block": {
-                "width": "100% !important"
-              }
-            }
-          },
-          "_name": "video1",
-          "_sourceTheme": "portfoliom4",
-          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"1\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"1\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"48\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#444444\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#ffbc00\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://youtu.be/fNiaNFxXjQ4?loop=1&autoplay=1\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
-          "_anchor": "video1-8",
-          "_isUserblock": true,
-          "_cid": "snq079AETd",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
         },
         {
           "alias": false,
@@ -2470,6 +2806,39 @@
           "_customHTML": "<section group=\"Social\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"SocialLikes,Socicon\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <select title=\"Icons\" name=\"iconsCount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n        </select>\n        <input type=\"color\" title=\"Circle Color\" name=\"circleColor\" value=\"#ffffff\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Circle Hover\" name=\"circleHover\" value=\"#ffbc00\" condition=\"showIcons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background7.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n       <div class=\"container-fluid text-center\">\n           <div class=\"row justify-content-center\">\n             <div class=\"col-md-6 col-sm-12\" mbr-if=\"showText\">\n                 <h3 class=\"inner-text mbr-fonts-style content-text\" mbr-text mbr-theme-style=\"display-7\" data-app-selector=\".content-text,.inner-text\">Pablo Dairaine, 2021</h3>\n             </div>\n             <div class=\"social-media col-md-6 col-sm-12\" mbr-if=\"showIcons\">\n                  <ul>\n                      <li mbr-if=\"iconsCount > 0\">\n                        <a class=\"icon-transition\" href=\"https://www.instagram.com/pablo_drne/?hl=fr\" target=\"_blank\">\n                          <span mbr-icon class=\"mbr-iconfont socicon-instagram socicon\" style></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 1\">\n                        <a class=\"icon-transition\" href=\"https://www.linkedin.com/in/pablo-dairaine-b466b1205/\" target=\"_blank\">\n                          <span mbr-icon class=\"mbr-iconfont socicon-linkedin socicon\"></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 2\">\n                        <a class=\"icon-transition\" href=\"#\">\n                          <span mbr-icon class=\"mbr-iconfont socicon-linkedin socicon\">\n                          </span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 3\">\n                        <a class=\"icon-transition\" href=\"#\">\n                          <span mbr-icon class=\"mbr-iconfont socicon-youtube socicon\">\n                          </span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 4\">\n                        <a class=\"icon-transition\" href=\"#\">\n                          <span mbr-icon class=\"mbr-iconfont socicon-rss socicon\" style></span>\n                        </a>\n                      </li>\n                   </ul>\n              </div>\n    </div>\n       </div>\n\n</section>",
           "_cid": "rzMrdh7IU7",
           "_anchor": "footer2-5",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background": "@bgColor",
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".video-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".video-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "video1",
+          "_sourceTheme": "portfoliom4",
+          "_customHTML": "<section group=\"Images &amp; Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked=\"\">\n\n    <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline=\"\" title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"66\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#b2ccd2\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video=\"\">\n                <iframe src=\"https://www.youtube.com/watch?v=l8UXhtqV6hU\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>\n",
+          "_cid": "sWjjGoWxkk",
+          "_anchor": "video1-c",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
