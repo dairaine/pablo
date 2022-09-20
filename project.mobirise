@@ -703,17 +703,12 @@
           "_styles": {},
           "_name": "eb-instagram-feed",
           "_sourceTheme": "portfoliom4",
-          "_customHTML": "<section class=\"elb-widgets\" group=\"Widget\"><script src=\"https://s.electricblaze.com/widget.js\" defer=\"\"></script>\n<div class=\"electricblaze-id-2Uhx5h3\"></div></section>",
+          "_customHTML": "<section class=\"elb-widgets\" group=\"Widget\"><script src=\"https://s.electricblaze.com/widget.js\" defer=\"\"></script>\n<div class=\"electricblaze-id-2Uhx6fC\"></div></section>",
           "_cid": "tgtffwYQ0L",
           "_anchor": "eb-instagram-feed-d",
           "safe": {
-            "id": 1049,
-            "code": "<script src=\"https://s.electricblaze.com/widget.js\" defer></script>\n<div class=\"electricblaze-id-2Uhx5h3\"></div>",
-            "account": {
-              "id": "4945336228899252",
-              "type": "MEDIA_CREATOR",
-              "username": "_pad_production_"
-            }
+            "id": 4778,
+            "code": "<script src=\"https://s.electricblaze.com/widget.js\" defer></script>\n<div class=\"electricblaze-id-2Uhx6fC\"></div>"
           },
           "_protectedParams": [],
           "_global": false,
