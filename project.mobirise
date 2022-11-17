@@ -1056,7 +1056,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Oni Zombie",
-                "active": true
+                "active": false
               },
               {
                 "tags": "3D",
@@ -1082,46 +1082,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "The man",
-                "active": false
-              },
-              {
-                "tags": "3D",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img-692-1284x2778.png",
-                "thumb": "@PROJECT_PATH@/assets/images/img-692-1284x2778-800x1731.png",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "The man",
-                "active": false
-              },
-              {
-                "tags": "3D",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img-691-1284x2778.png",
-                "thumb": "@PROJECT_PATH@/assets/images/img-691-1284x2778-800x1731.png",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "The man",
-                "active": false
-              },
-              {
-                "tags": "3D",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img-693-1284x2778.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-693-1284x2778-800x1731.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "The man",
-                "active": false
+                "active": true
               },
               {
                 "tags": "3D",
